@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CharacterType {
 
-    public void Chartype() {
+    public void checkCharType() {
         if (Input.charAt(0) >= 65 && Input.charAt(0) <= 91) {
             System.out.println("CapitalLetter");
         } else if (Input.charAt(0) >= 97 && Input.charAt(0) <= 122) {
@@ -20,7 +20,7 @@ public class CharacterType {
         Scanner s = new Scanner(System.in);
         String Input = s.next();
 
-        Chartype();
+        checkChartype();
 
 
     }

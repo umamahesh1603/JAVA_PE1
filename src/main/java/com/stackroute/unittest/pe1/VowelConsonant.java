@@ -4,7 +4,7 @@ import java.util.*;
 import java.io.* ;
 import java.util.Scanner;
 public class VowelConsonant {
-    public static String CheckVowConso(String s) {
+    public static void CheckVowConso(String s) {
         for (int i = 0; i < s.length(); i++) {
             switch (s.charAt(i)) {
                 case 'a':
@@ -39,4 +39,4 @@ public class VowelConsonant {
 
 
     }
-}
+

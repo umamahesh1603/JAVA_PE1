@@ -10,19 +10,19 @@ public class NumberSort {
         Scanner s = new Scanner(System.in);
         int number = s.nextInt();
         int[] array = new int[100];
-        int ind=0;
+        int index=0;
         int temp;
 
         while((number/10)!=0){
 
             temp = number%10;
-            array[ind] = temp;
-            ind=ind+1;
+            array[index] = temp;
+            index=index+1;
             number = number/10;
 
         }
-        array[ind]=number;
-        Arrays.sort(array,0,ind);
+        array[index]=number;
+        Arrays.sort(array,0,index);
         /*String real = Arrays.toString(array);
         int result = Integer.parseInt(real);
         System.out.println(result);*/

@@ -7,14 +7,14 @@ import java.io.*;
 /* Name of the class has to be "Main" only if the class is public. */
 public class Ideone
 {
-    public int sum(int p){
+    public int doSum(int num){
         int[] arr = new int[100];
-        int f=0;
-        for(int i=0;i<p;i++){
+        int temp=0;
+        for(int i=0;i<num;i++){
             arr[i]=s.nextInt();
-            f = f+arr[i];
+            temp = temp+arr[i];
         }
-        return (f);
+        return (temp);
 
     }
     public static void main (String args[]) throws java.lang.Exception
@@ -22,7 +22,7 @@ public class Ideone
 
         Scanner s = new Scanner(System.in);
         System.out.println("Enter number");
-        int p = s.nextInt();
+        int num = s.nextInt();
 
 
     }
